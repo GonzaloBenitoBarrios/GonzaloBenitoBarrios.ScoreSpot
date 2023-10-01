@@ -1,0 +1,260 @@
+body{
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    min-width: 300px;
+}
+.in-flex:first-child {
+    flex: 2;
+    margin-bottom: 0px;
+    
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-image: url( );
+    background-size: cover;
+    background-position: center;
+   
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: #b2f7ef;
+   display: flex;
+   align-items: center; 
+   justify-content:space-between ;
+   padding: 5px;
+   transition: all all 0.5s ease;
+    border-bottom-style: solid;
+    border-color: #aaa3a3;
+    
+}
+.nav.active{
+    background: #b2f7ef;
+    padding: 15px;
+}
+.nav.active .Logo,
+.nav.active a{
+    color: black;
+}
+.nav.active a.hover{
+    background: #000;
+    color: #fff;
+}
+.logo{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 100;
+}
+.logo a{
+    color: #000;
+    text-decoration: none;
+}
+#logo1{
+    background-color: 2ec4b6;
+    background-color: 64b5f6;
+    border-radius: 90px;
+    padding: 2px;
+    margin-bottom: -3px;
+}
+.ScoreSpot{
+    margin-left: 44px;
+    margin-top: -38px;
+}
+.menu{
+  display: flex;
+  
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+  
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    
+}
+
+menu li.nav.active{
+    color: #000;
+    background-color:#a9def9;
+}
+
+.menu li a:hover{
+    padding: 5px 10px;
+    background: black;
+    border-radius: 15px;
+    color: rgb(223, 52, 52);
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    color: #000;
+
+}
+nav li:hover > ul{
+   display: block;
+   
+}
+.scrol{
+    height: 100px;
+
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: aqua;
+    margin: 0;
+    font-size: 43px;
+    margin-right: 0;
+    color: #000;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 25px auto;
+    font-style: italic;
+    color: #000;
+}
+#main-container{
+    margin: 50px auto;
+    width:600px;
+    
+}
+table{
+    background-color: with;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 10px 5px 15px #000;
+}
+th,td{
+    border: solid 1 px white;
+    padding: 5px;
+    font-size: 20px;
+    color: #000;
+    background-color: #8eecf5;
+   
+}
+body{
+    
+    background-color: #90dbf4;
+    color: white;
+}
+th{
+    background-color: #660708;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 25px ;
+    
+    color: #000;
+}
+
+h4{
+    font-family: sans-serif;
+    font-style: italic;
+    color: #000;
+    font-size: 25px;
+}
+h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px ;
+    font-style: italic;
+    
+}
+h6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px ;
+    font-style: italic;
+    margin: 10px;
+}
+.premierleague{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.Bundesliga{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    
+}
+.Ligue1{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.LaLiga{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.SerieA{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.LigaProfesional{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.CopaLibertadores{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+#ligasamericanas{
+    color: white;
+    background-color: rgb(88, 141, 240);
+}
+#ligaseuropeas{
+    color: white;
+    background-color: rgb(88, 141, 240);
+}
+#logo{
+    border-radius: 100px;
+    background-color: aqua;
+    margin-bottom: -7px;   
+}
+.copyright{
+    background-color: #000;
+}
+.footer{
+    background-color: #000;
+}
+#ScoreSpotfoo{
+   font-size: 30px;
+   margin-left: 35px;
+   padding-top: 20px;
+}
+.Copyright{
+    margin-left: 35px;
+}
+.Sudamericanas{
+    border-radius: 300px;
+}

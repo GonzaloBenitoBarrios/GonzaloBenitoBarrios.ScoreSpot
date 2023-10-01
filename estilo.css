@@ -1,0 +1,126 @@
+
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffd7ba;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    margin-left: -8px;
+
+}
+.nav.active{
+    background: #fff;
+    padding: 15px;
+    background-color: #ffd7ba;
+}
+.logo{
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 40px;
+}
+.menu li{
+    list-style: none;
+    
+}
+body{
+    background-color:  #fae1dd ;
+    
+    
+}
+h1{
+    margin-left: 30px;
+    font-size: 30px;
+    padding: 0;
+    padding-right: 900px;
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+}
+h2{
+   text-align: center;
+   padding-top: 50px;
+   font-family: sans-serif;
+   padding-left: 350px;
+   margin-top: -890px;
+}
+.cajamarron{
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    
+}  
+.img{
+    border-radius: 10px;
+    box-shadow: 2px 4px 15px 0 #000;
+    
+}
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    padding-left: 370px;
+    font-size: 20px;
+
+}
+
+h4{
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 390px;
+    font-size: 20px;
+}
+.lola{
+     
+     text-align: center;
+     font-family: sans-serif;
+     background-color: aqua;
+     padding: 10px;
+     margin-left:  45%;
+     margin-right: 45%;
+     border-radius: 15px;
+     box-shadow: 10px 10px 20px 1px;
+     
+}
+.lolo{
+    text-decoration: none;
+    color: #000;
+    
+}
+#pity{
+    padding: 0%;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 2px 4px 15px 0 #000;
+    
+    
+}
+.imagenpity{
+    padding-left: 130px;
+}
+#logo1{
+    background-color: 2ec4b6;
+    background-color: #64b5f6;
+    border-radius: 20px;
+    padding: 2px;
+}
+.ScoreSpot{
+    margin-left: 44px;
+    margin-top: -42px;
+    
+}
+.logo a{
+    color: #000;
+    text-decoration: none;
+}
