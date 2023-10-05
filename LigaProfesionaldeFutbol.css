@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+font-family: sans-serif;
+-webkit-text-fill-color: white;
+}
+h2{
+    font-family: Druk,Var;
+    -webkit-text-fill-color:  rgb(236, 210, 210);
+    font-size: 55px;
+    margin: 0;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+    border-color: white;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+    
+}
+table{
+    border-collapse: collapse;
+    border-color: black;
+    border-top-color: gray;
+    
+   
+}
